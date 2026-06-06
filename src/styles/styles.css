@@ -235,3 +235,186 @@ input{
 .footer-subscribe button:hover{
     transform: scale(1.05);
 }
+
+/* ==========================================
+   RESPONSIVIDADE — 884px e 480px
+   Adicione ao final do styles.css
+   ========================================== */
+
+/* --------- TABLET (≤ 884px) --------- */
+@media (max-width: 884px) {
+
+  /* Header */
+  header {
+    gap: 32px;
+    padding: 32px 24px;
+  }
+
+  .container-nav-header {
+    gap: 24px;
+  }
+
+  .navigation-header ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  /* Main */
+  main {
+    flex-direction: column;
+    padding: 60px 24px;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .main-content {
+    width: 100%;
+    align-items: center;
+  }
+
+  .main-content a {
+    align-self: center;
+  }
+
+  main img {
+    width: 100%;
+    max-width: 460px;
+  }
+
+  /* Section Control */
+  .section-control {
+    flex-direction: column;
+    height: auto;
+    margin-left: 0;
+    padding: 60px 24px;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .section-control img {
+    width: 100%;
+    max-width: 460px;
+  }
+
+  .control-content {
+    width: 100%;
+  }
+
+  /* Section Chart */
+  .section-chart {
+    padding: 60px 24px;
+  }
+
+  .chart-content {
+    width: 100%;
+  }
+
+  .section-chart img {
+    width: 100%;
+  }
+
+  /* Footer */
+  footer {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 48px;
+    padding: 60px 24px;
+    text-align: center;
+  }
+
+  .content-footer {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .footer-subscribe {
+    align-items: center;
+  }
+
+  form {
+    width: 100%;
+    max-width: 385px;
+  }
+}
+
+/* --------- MOBILE (≤ 480px) --------- */
+@media (max-width: 480px) {
+
+  /* Tipografia */
+  :root {
+    --font-size-h1: 36px;
+    --font-size-h2: 28px;
+    --font-size-h3: 22px;
+  }
+
+  /* Header */
+  header {
+    padding: 24px 16px;
+    gap: 24px;
+  }
+
+  .navigation-header ul {
+    gap: 16px;
+  }
+
+  .btn-header {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Main */
+  main {
+    padding: 48px 16px;
+    gap: 32px;
+  }
+
+  /* Section Control */
+  .section-control {
+    padding: 48px 16px;
+    gap: 32px;
+  }
+
+  .control-content {
+    gap: 20px;
+  }
+
+  /* Section Chart */
+  .section-chart {
+    padding: 48px 16px;
+  }
+
+  .chart-content {
+    gap: 12px;
+  }
+
+  .chart-content h2 {
+    height: auto;
+  }
+
+  /* Footer */
+  footer {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 16px;
+    gap: 40px;
+  }
+
+  .content-footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+
+  form {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .footer-subscribe h2 {
+    width: auto;
+    text-align: center;
+  }
+}
+
