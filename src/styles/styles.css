@@ -269,8 +269,12 @@ input{
   }
 
   .main-content {
-    width: 100%;
+    width: 500px;
     align-items: center;
+  }
+
+  .main-content p{
+    width: 375px;
   }
 
   .main-content a {
@@ -278,7 +282,6 @@ input{
   }
 
   main img {
-    width: 100%;
     max-width: 460px;
   }
 
