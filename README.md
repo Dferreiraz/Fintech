@@ -42,7 +42,7 @@ Projeto institucional desenvolvido durante os estudos no curso de Desenvolvedor 
 
 <!-- EXEMPLO DE LAYOUT: -->
 ## 🎨 Layout
-![Web1](https://github.com/Dferreiraz/AgencyWeb/blob/main/thumb-Fintech.png)
+![Web1](https://github.com/Dferreiraz/Fintech/blob/main/thumb-Fintech.png)
 
 ---
 
