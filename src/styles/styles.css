@@ -296,12 +296,11 @@ input{
   }
 
   .section-control img {
-    width: 100%;
-    max-width: 460px;
+    width: 460px;
   }
 
   .control-content {
-    width: 100%;
+    width: 700px;
   }
 
   /* Section Chart */
@@ -310,11 +309,11 @@ input{
   }
 
   .chart-content {
-    width: 100%;
+    width: 700px;
   }
 
   .section-chart img {
-    width: 100%;
+    width: 700px;
   }
 
   /* Footer */
@@ -337,8 +336,7 @@ input{
   }
 
   form {
-    width: 100%;
-    max-width: 385px;
+    width: 385px;
   }
 }
 
@@ -354,32 +352,55 @@ input{
 
   /* Header */
   header {
+    justify-content: center;
     padding: 24px 16px;
-    gap: 24px;
   }
 
-  .navigation-header ul {
-    gap: 16px;
+  .navigation-header {
+    display: none;
   }
 
   .btn-header {
-    width: 100%;
-    text-align: center;
+    display: none;
   }
 
   /* Main */
   main {
+    flex-direction: column;
     padding: 48px 16px;
     gap: 32px;
+    text-align: center;
+  }
+
+  .main-content {
+    width: 448px;
+    align-items: center;
+  }
+
+  .main-content a {
+    align-self: center;
+  }
+
+  main img {
+    width: 448px;
   }
 
   /* Section Control */
   .section-control {
+    flex-direction: column;
+    height: auto;
+    margin-left: 0;
     padding: 48px 16px;
     gap: 32px;
+    text-align: center;
+  }
+
+  .section-control img {
+    width: 448px;
   }
 
   .control-content {
+    width: 448px;
     gap: 20px;
   }
 
@@ -389,6 +410,7 @@ input{
   }
 
   .chart-content {
+    width: 448px;
     gap: 12px;
   }
 
@@ -396,10 +418,14 @@ input{
     height: auto;
   }
 
+  .section-chart img {
+    width: 448px;
+  }
+
   /* Footer */
   footer {
-    display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 48px 16px;
     gap: 40px;
   }
@@ -410,14 +436,16 @@ input{
     gap: 32px;
   }
 
-  form {
-    width: 100%;
-    max-width: 100%;
+  .footer-subscribe {
+    align-items: center;
   }
 
   .footer-subscribe h2 {
-    width: auto;
+    width: 448px;
     text-align: center;
   }
-}
 
+  form {
+    width: 448px;
+  }
+}
